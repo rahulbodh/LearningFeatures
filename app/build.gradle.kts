@@ -49,4 +49,6 @@ dependencies {
     implementation("com.google.android.exoplayer:exoplayer:2.19.1")
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
 
+
+    implementation(libs.material)
 }
