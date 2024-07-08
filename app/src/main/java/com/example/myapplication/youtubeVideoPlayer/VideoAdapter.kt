@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.youtubeVideoPlayer
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myapplication.R
 
 class VideoAdapter(private val context: Context, private val videoList: List<VideoItem>) :
     RecyclerView.Adapter<VideoAdapter.VideoViewHolder>() {
