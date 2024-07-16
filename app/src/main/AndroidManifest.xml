@@ -13,7 +13,7 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".mindMap.MindMapActivity"
+            android:name=".animatedMindMap.MyMindMap"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,13 +22,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".chatbotUI.ChatActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:name=".mindMap.MindMapActivity"
+            android:exported="false">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chatbotUI.ChatActivity"
+            android:exported="false">
         </activity>
         <activity
             android:name=".modelBottomSheet.BottomSheetMainActivity"
