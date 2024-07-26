@@ -54,6 +54,7 @@ dependencies {
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
     implementation(libs.androidx.dynamicanimation)
     implementation(libs.gyso.treeview)
+    implementation("com.github.mik3y:usb-serial-for-android:3.8.0") // Usb Serial for android
 
     implementation(libs.material)
 }
